@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+route::get('/', function(){
+	return redirect()->to('/crud');
 });
+Route::resource('crud', 'CrudController');
