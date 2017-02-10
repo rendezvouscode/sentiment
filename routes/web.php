@@ -15,3 +15,4 @@ route::get('/', function(){
 	return redirect()->to('/crud');
 });
 Route::resource('crud', 'CrudController');
+Route::resource('jajal','SastrawiController');

@@ -11,7 +11,8 @@
 				            {{ Session::get('alert-success') }}
 				        </div>
 					@endif
-					<a href="{{route('crud.create')}}" class="btn btn-info pull-right">Tambah Data</a><br><br>
+					<a href="{{route('jajal.index')}}" class="btn btn-primary">JAJAL</a><br><br>
+					<a href="{{route('crud.create')}}" class="btn btn-primary">Tambah Data</a><br><br>
 					<table class="table table-striped">
 						<tr>
 							<th>No</th>

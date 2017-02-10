@@ -19,8 +19,10 @@
 
 						</div>
 						<div class="form-group">
-							<input type="submit" class="btn btn-primary" value="Simpan">
+							<input type="submit" class="btn btn-success" value="Simpan">
+							<a href="<?php echo e(route('crud.index')); ?>" class="btn btn-primary">Kembali</a>
 						</div>
+
 					</form>
 				</div>
 			</div>

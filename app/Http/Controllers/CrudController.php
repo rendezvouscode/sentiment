@@ -17,7 +17,13 @@ class CrudController extends Controller
      */
     public function index()
     {
+        require_once __DIR__ . '/../../../vendor/autoload.php';
+        $stemmerFactory = new \Sastrawi\Stemmer\StemmerFactory();
+        $stemmer  = $stemmerFactory->createStemmer();
+
         $cruds = Crud::all();
+        
+        $output = $stemmer->stem($cruds);
         return view('index', compact('cruds'));
     }
 

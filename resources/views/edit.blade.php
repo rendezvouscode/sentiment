@@ -18,7 +18,8 @@
 							{!! $errors->first('phone', '<p class="help-block">:message</p>') !!}
 						</div>
 						<div class="form-group">
-							<input type="submit" class="btn btn-primary" value="Simpan">
+							<input type="submit" class="btn btn-success" value="Simpan">
+							<a href="{{route('crud.index')}}" class="btn btn-primary">Kembali</a>
 						</div>
 					</form>
 				</div>
