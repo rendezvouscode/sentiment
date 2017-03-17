@@ -1,0 +1,68 @@
+.box-button{
+	display: inline-block;
+}
+.lb-md{
+	width: 100px;
+}
+
+html{
+	position: relative;
+	min-height: 100%
+}
+
+body{
+	margin-bottom: 70px;
+}
+
+.jumlah_data, .paging{
+	width: 50%;
+	height: 50px;
+	display: block;
+}
+
+.jumlah_data{
+	float: left;
+	padding-top: 10px;
+}
+
+.paging{
+	float: right;
+	text-align: right;
+}
+
+.paging ul.pager, .paging ul.pagination {
+	text-align: right;
+}
+ul.pagination, ul.pager{
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.label-p {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: #26B99A;
+}
+.label-n {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: #34495E;
+}
+.label-fp {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: #ACADAC;
+}
+.label-fn {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    background-color: #00838f ;
+}
