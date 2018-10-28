@@ -60,7 +60,7 @@
 							<a id="menu_toggle"><i class="fa fa-bars"></i></a>
 							<p>
 						</div>
-						<!-- diisi ning kene -->
+						<!-- diisi data ning kene -->
 					</nav>
 				</div>
 			</div>
